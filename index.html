@@ -23,7 +23,7 @@
         <p id="thanks"></p>
     </div>
 
-    
+
 
 
     <!-- calculator -->
@@ -32,13 +32,15 @@
         <input type="text" id="num1" placeholder="Enter first number">
         <input type="text" id="num2" placeholder="Enter second number">
         <div class="butn">
-            <button class="btn1"> Add</button>
-            <button class="btn1"> Subtract</button>
-            <button class="btn1"> Multiply</button>
-            <button class="btn1"> Divide</button>
-            <span id="result"></span>
+            <button class="btn1" onclick="add()"> Add</button>
+            <button class="btn1" onclick="subtract()"> Subtract</button>
+            <button class="btn1" onclick="multiply()"> Multiply</button>
+            <button class="btn1" onclick="divide()"> Divide</button>
+
         </div>
+        <span id="result">result:</span>
     </div>
+
     <script src="index.js"></script>
 </body>
 
